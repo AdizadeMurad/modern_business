@@ -1,0 +1,358 @@
+.container__contact{
+max-width: 100%;
+min-height: 490px;
+background-color: rgb(255, 255, 255);
+padding-top: 50px;
+padding-left: 50px;
+padding-right: 50px;
+
+}
+
+.navbar__container{
+    max-width: 100%;
+    min-height: 55px;
+    background-color: rgb(33,37,41);
+    padding-top: 7px;
+
+    
+
+}
+.navbar__general{
+    max-width: 1060px;
+    background-color: rgb(33,37,41);
+    min-height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 3px;
+}
+.navbar__page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    margin: auto;
+   
+}
+.menu__color{
+    color: rgb(156, 156, 156);
+    text-decoration: none;
+}
+.menu__color:hover{
+    color: rgb(203, 203, 203);
+}
+.menyu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.start__bootstrap__text{
+    font-size: 20px;
+    margin: auto;
+    color: white;
+}
+.btn{
+    color: rgb(156, 156, 156);
+    border-style: none;
+
+}
+.btn:hover{
+   color:  rgb(203, 203, 203);
+}
+
+.navbar{
+    display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+    .navbar__general{
+        max-width: 880px;
+        background-color: rgb(33,37,41);
+        min-height: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        margin-top: 3px;
+
+    }
+}
+
+@media only screen and (max-width: 992px){
+.navbar__container{
+    display: none;
+}
+.navbar{
+    display: flex;
+    max-width: 100%;
+    margin: auto;
+}
+.container-fluid{
+    max-width: 660px;
+}
+}
+@media only screen and (max-width: 768px){
+   
+    .navbar__container{
+        display: none;
+    } .navbar{
+        display: flex;
+        max-width: 1320px;
+        margin: auto;
+    }
+    .container-fluid{
+        max-width: 540px;
+    }
+    }
+
+
+    
+
+
+    .general__contact{
+        max-width: 1030px;
+        background-color: rgb(248,249,250);
+        min-height: 745px;
+        margin: auto;
+        padding-top: 50px;
+     
+       
+    }
+    .general__in{
+        max-width: 500px;
+        min-height: 585px;
+        background-color: rgb(248,249,250);
+        margin: auto;
+    }
+    .icon__form{
+        max-width: 50px;
+        height: 50px;
+        background-color: rgb(43,128,253);
+        padding: 20px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #icon__form{
+      color: white;
+     
+      font-size: 25px;
+    }
+    .general__form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .general__word__form{
+        padding-bottom: 50px;
+        padding-top: 10px;
+    }
+    .class{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+ .input__form{
+        width: 90%;
+        border-radius: 5px;
+        border: 1px solid rgb(112, 112, 112);
+        min-height: 60px;
+        padding-left: 10px;
+       
+
+ }  
+ .input__textarea{
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid rgb(112, 112, 112);
+    padding-left: 10px;
+    padding-top: 15px;
+    
+ }
+    .form{
+        width: 100%;
+    }
+    .submit__form {
+width: 90%;
+border-radius: 7px;
+min-height: 45px;
+background-color: rgb(95,159,252);
+border-style: none;
+    }
+    .contact__head__form{
+        font-size: 40px;
+        font-weight: bolder;
+    }
+    .contact__text__form{
+        font-size: 20px;
+        color: rgb(112, 112, 112);
+    }
+
+
+    .contact__top__section{
+        max-width: 100%;
+        min-height: 370px;
+        background-color: rgb(255, 255, 255);
+        padding-top: 86px;
+    }
+     .contact__top__general{
+        max-width: 100%;
+        background-color: rgb(255, 255, 255);
+        min-height: 200px;
+        margin: auto;
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+     }
+     .chat__icon{
+        max-width: 50px;
+        height: 50px;
+        background-color: rgb(43,128,253);
+        padding: 20px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+   .contact__top__in{
+    background-color: rgb(255, 255, 255);
+    
+    display: flex;
+        justify-content: center;
+        
+        max-width: 1250px;
+        width: 100%;
+        padding-left: 55px;
+        padding-right: 55px;
+        min-height: 150px;
+        gap: 28px;
+        
+       
+   }
+   .chat__text{
+    color: rgb(174, 174, 174);
+   }
+   @media only screen and (max-width: 1200px){
+    .contact__top__in{
+        background-color: rgb(255, 255, 255);
+        
+        display: flex;
+            justify-content: center;
+           
+            max-width: 960px;
+            width: 100%;
+            padding-left: 70px;
+            padding-right: 70px;
+            min-height: 150px;
+            gap: 45px;
+            
+           
+       }
+       .general__contact{
+        max-width: 845px;
+        background-color: rgb(248,249,250);
+        min-height: 745px;
+        margin: auto;
+        padding-top: 50px;
+     
+       
+    }
+    .community{
+        max-width: 200px;
+        width: 100%;
+    }
+    .contact__top__general{
+        max-width: 100%;
+        background-color: rgb(255, 255, 255);
+        min-height: 200px;
+        margin: auto;
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+     }
+
+   }
+   @media only screen and (max-width: 991px){
+    .contact__top__in{
+        background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+            max-width: 760px;
+            width: 100%;
+            padding-left: 70px;
+            padding-right: 70px;
+            min-height: 150px;
+            gap: 45px;
+            
+           
+       }
+       .general__contact{
+        max-width: 630px;
+        background-color: rgb(248,249,250);
+        min-height: 745px;
+        margin: auto;
+        padding-top: 50px;
+     
+       
+    }
+   }
+   @media only screen and (max-width: 768px){
+    .contact__top__in{
+        background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+            max-width: 585px;
+            width: 100%;
+            padding-left: 70px;
+            padding-right: 70px;
+            min-height: 150px;
+            gap: 45px;
+            
+           
+       }
+       .general__contact{
+        max-width: 460px;
+        background-color: rgb(248,249,250);
+        min-height: 440px;
+        margin: auto;
+        padding-top: 50px;
+     
+       
+    }
+   }
+   .chat__word__call{
+    max-width: 220px;
+   }
+   .chat__word__chat{
+    max-width: 200px;
+   }
+   .chat__word__community{
+    max-width: 200px;
+    max-width: 248px;
+    width: 100%;
+   }
+   .chat__word__support{
+    max-width: 250px;
+   }
+
+.chat__head{
+    max-width: 200px;
+    font-size: 1.25rem;
+    font-weight: bolder;
+}
+#icon__contact{
+    font-size: 25px;
+    color:white ;
+}

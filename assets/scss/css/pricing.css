@@ -1,0 +1,128 @@
+.container__pricing {
+  max-width: 100%;
+  min-height: 490px;
+  background-color: rgb(122, 122, 122);
+}
+
+.navbar__container {
+  max-width: 100%;
+  min-height: 55px;
+  background-color: rgb(33, 37, 41);
+  padding-top: 7px;
+}
+
+.navbar__general {
+  max-width: 1060px;
+  background-color: rgb(33, 37, 41);
+  min-height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  margin-top: 3px;
+}
+
+.navbar__page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+  margin: auto;
+}
+
+.menu__color {
+  color: rgb(156, 156, 156);
+  text-decoration: none;
+}
+
+.menu__color:hover {
+  color: rgb(203, 203, 203);
+}
+
+.menyu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.start__bootstrap__text {
+  font-size: 20px;
+  margin: auto;
+  color: white;
+}
+
+.btn {
+  color: rgb(156, 156, 156);
+  border-style: none;
+}
+
+.btn:hover {
+  color: rgb(203, 203, 203);
+}
+
+.navbar {
+  display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  .navbar__general {
+    max-width: 880px;
+    background-color: rgb(33, 37, 41);
+    min-height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 3px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .navbar__container {
+    display: none;
+  }
+  .navbar {
+    display: flex;
+    max-width: 100%;
+    margin: auto;
+  }
+  .container-fluid {
+    max-width: 660px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .navbar__container {
+    display: none;
+  }
+  .navbar {
+    display: flex;
+    max-width: 1320px;
+    margin: auto;
+  }
+  .container-fluid {
+    max-width: 540px;
+  }
+}
+.card__free {
+  max-width: 315px;
+  min-height: 510px;
+  background-color: red;
+}
+
+.card__pro {
+  max-width: 315px;
+  min-height: 510px;
+  background-color: red;
+}
+
+.card__enterprice {
+  max-width: 315px;
+  min-height: 510px;
+  background-color: red;
+}
+
+.container__general {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=pricing.css.map */

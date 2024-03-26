@@ -1,0 +1,444 @@
+.container__pricing {
+    max-width: 100%;
+    min-height: 490px;
+    background-color: rgb(248, 249, 250);
+}
+
+.navbar__container {
+    max-width: 100%;
+    min-height: 55px;
+    background-color: rgb(33, 37, 41);
+    padding-top: 7px;
+
+
+
+}
+
+.navbar__general {
+    max-width: 1060px;
+    background-color: rgb(33, 37, 41);
+    min-height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 3px;
+}
+
+.navbar__page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    margin: auto;
+
+}
+
+.menu__color {
+    color: rgb(156, 156, 156);
+    text-decoration: none;
+}
+
+.menu__color:hover {
+    color: rgb(203, 203, 203);
+}
+
+.menyu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start__bootstrap__text {
+    font-size: 20px;
+    margin: auto;
+    color: white;
+}
+
+.btn {
+    color: rgb(156, 156, 156);
+    border-style: none;
+
+}
+
+.btn:hover {
+    color: rgb(203, 203, 203);
+}
+
+.navbar {
+    display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+    .navbar__general {
+        max-width: 880px;
+        background-color: rgb(33, 37, 41);
+        min-height: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        margin-top: 3px;
+
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .navbar__container {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .container-fluid {
+        max-width: 660px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .navbar__container {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+        max-width: 1320px;
+        margin: auto;
+    }
+
+    .container-fluid {
+        max-width: 540px;
+    }
+}
+
+
+.card__free {
+    max-width: 315px;
+    min-height: 510px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 45px;
+    padding-left: 53px;
+    padding-right: 53px;
+    padding-bottom: 45px;
+    border-radius: 10px;
+    border: 1px solid rgb(197, 197, 197);
+}
+
+.card__pro {
+    max-width: 315px;
+    min-height: 510px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 45px;
+    padding-left: 53px;
+    padding-right: 53px;
+    padding-bottom: 45px;
+    border-radius: 10px;
+    border: 1px solid rgb(197, 197, 197);
+}
+
+.card__enterprise {
+    max-width: 315px;
+    min-height: 510px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 45px;
+    padding-left: 53px;
+    padding-right: 53px;
+    padding-bottom: 45px;
+    border-radius: 10px;
+    border: 1px solid rgb(197, 197, 197);
+}
+
+.cards__genaral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 120px;
+}
+@media only screen and (max-width: 1200px){
+
+    .cards__genaral {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 50px;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+    .card__free {
+        width: 100%;
+        max-width: 415px;
+        min-height: 510px;
+        background-color: rgb(255, 255, 255);
+        padding-top: 45px;
+        padding-left: 53px;
+        padding-right: 53px;
+        padding-bottom: 45px;
+        border-radius: 10px;
+        border: 1px solid rgb(197, 197, 197);
+    }
+    .card__enterprise {
+        width: 100%;
+        max-width: 415px;
+        min-height: 510px;
+        background-color: rgb(255, 255, 255);
+        padding-top: 45px;
+        padding-left: 53px;
+        padding-right: 53px;
+        padding-bottom: 45px;
+        border-radius: 10px;
+        border: 1px solid rgb(197, 197, 197);
+    }
+    .card__pro {
+        width: 100%;
+        max-width: 415px;
+        min-height: 510px;
+        background-color: rgb(255, 255, 255);
+        padding-top: 45px;
+        padding-left: 53px;
+        padding-right: 53px;
+        padding-bottom: 45px;
+        border-radius: 10px;
+        border: 1px solid rgb(197, 197, 197);
+    }
+
+
+}
+@media only screen and (max-width: 1060px){
+    .card__free {
+        width: 100%;
+        max-width: 650px;
+        min-height: 510px;
+        background-color: rgb(255, 255, 255);
+        padding-top: 45px;
+        padding-left: 53px;
+        padding-right: 53px;
+        padding-bottom: 45px;
+        border-radius: 10px;
+        border: 1px solid rgb(197, 197, 197);
+    }
+    .card__enterprise {
+        width: 100%;
+        max-width: 650px;
+        min-height: 510px;
+        background-color: rgb(255, 255, 255);
+        padding-top: 45px;
+        padding-left: 53px;
+        padding-right: 53px;
+        padding-bottom: 45px;
+        border-radius: 10px;
+        border: 1px solid rgb(197, 197, 197);
+    }
+    .card__pro {
+        width: 100%;
+        max-width: 650px;
+        min-height: 510px;
+        background-color: rgb(255, 255, 255);
+        padding-top: 45px;
+        padding-left: 53px;
+        padding-right: 53px;
+        padding-bottom: 45px;
+        border-radius: 10px;
+        border: 1px solid rgb(197, 197, 197);
+    }
+}
+@media only screen and (max-width: 768px){
+    .card__free {
+        width: 100%;
+        max-width: 460px;
+        min-height: 510px;
+        background-color: rgb(255, 255, 255);
+        padding-top: 45px;
+        padding-left: 53px;
+        padding-right: 53px;
+        padding-bottom: 45px;
+        border-radius: 10px;
+        border: 1px solid rgb(197, 197, 197);
+    }
+    .card__enterprise {
+        width: 100%;
+        max-width: 460px;
+        min-height: 510px;
+        background-color: rgb(255, 255, 255);
+        padding-top: 45px;
+        padding-left: 53px;
+        padding-right: 53px;
+        padding-bottom: 45px;
+        border-radius: 10px;
+        border: 1px solid rgb(197, 197, 197);
+    }
+    .card__pro {
+        width: 100%;
+        max-width: 460px;
+        min-height: 510px;
+        background-color: rgb(255, 255, 255);
+        padding-top: 45px;
+        padding-left: 53px;
+        padding-right: 53px;
+        padding-bottom: 45px;
+        border-radius: 10px;
+        border: 1px solid rgb(197, 197, 197);
+    }
+}
+.text__general {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+
+
+}
+
+.container__general {
+    padding-top: 95px;
+}
+
+.pricig__head {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.pricig__text {
+    font-size: 20px;
+    color: rgb(112, 112, 112);
+
+
+}
+
+.dollar__free {
+    display: flex;
+
+    align-items: center;
+}
+
+.dollor__free__head {
+    font-size: 55px;
+    font-weight: bolder;
+}
+
+.dollor__free__text {
+    font-size: 20px;
+
+}
+
+.head__opinion {
+    font-size: 14px;
+    font-weight: bolder;
+
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.cards__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.free__button {
+    max-width: 545px;
+    margin-top: 15px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(13, 110, 253);
+    background-color: white;
+
+
+}
+.pro__button {
+    max-width: 545px;
+    margin-top: 15px;
+    width: 100%;
+    border-radius: 5px;
+    border-style: none;
+    background-color: rgb(13, 110, 253);
+}
+.opinion {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.general__opinion {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+.button__click {
+    text-decoration: none;
+}
+
+.free__click {
+    padding: 7px;
+    color: rgb(13, 110, 253)
+}
+
+.free__button:hover {
+    background-color: rgb(13, 110, 253);
+
+    .free__click {
+        color: white;
+    }
+}
+
+.pro__click {
+    padding: 7px;
+    color: rgb(255, 255, 255)
+}
+
+.pro__button:hover {
+    background-color: white;
+
+    .pro__click {
+        color: rgb(13, 110, 253);
+        border: 1px solid rgb(13, 110, 253);
+        border-radius: 7px;
+    }
+
+}
+
+.enterprise__click {
+    padding: 7px;
+    color: rgb(13, 110, 253);
+}
+
+.free__button:hover {
+    background-color: rgb(13, 110, 253);
+
+    .enterprise__click {
+        color: white;
+    }
+}
+
+.bolder__weight {
+    font-weight: bolder;
+}
+
+.hidden__weight {
+    color: rgb(112, 112, 112);
+}
+
+#icon__decoration {
+    color: rgb(0, 95, 239);
+    font-size: 10px;
+    align-items: center;
+}
+
+#icon__decoration__hidden {
+    color: rgb(169, 169, 169);
+    font-size: 11px;
+    align-items: center;
+}
